@@ -1,0 +1,241 @@
+
+
+    
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+
+}
+
+.header {
+  background-color :green;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  display: block;
+
+}
+
+.logo {
+  margin: 0;
+  font-size: 2em;
+  text-align: left;
+}
+.info{
+  background-color:white;
+  padding: 100px;
+  border-radius: 10px;
+  
+  box-shadow: #fff;
+
+}
+.info h1{
+  text-decoration: none;
+  color: green;
+  margin: 18px;
+}
+  
+
+
+.info p{
+  font-size: 18px;
+  margin: 10px 0;
+  
+  
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+.nav ul li {
+  display: inline;
+  margin: 0 10px;
+
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #101010;
+  font-weight: bold;
+}
+
+ .hero {
+
+  
+  color: black;
+  padding: 100px 20px;
+  text-align: left;
+  font-weight: 500;
+} 
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: green; /* Dahab button */
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+  }
+   .btn:hover {
+    background-color: green;
+    color: #fff;
+  } 
+
+ .form-container {
+  width: 30%;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px green;
+  border-radius:8px ;
+  height: auto;
+  
+
+}
+.form-container h2{
+  color: green;
+}
+label{
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+input[type="text"], select,textarea{
+  width: 80%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid green;
+  border-radius: 4px;
+}
+
+.gender,
+.hobbies{
+  margin-top: 5px;
+
+}
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: green;
+}
+
+.gallery img {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+.gallery {
+  padding: 30px;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+ .item img {
+  width: 200px;
+  height: 250px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px green; 
+} 
+
+.item p {
+
+  font-weight: bold;
+  margin-bottom: 80px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+/* .online-shooping & price h3{
+  background-color: green;
+}  */
+
+table {
+  width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid green;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: green;
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+ .input-field {
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 5px;
+} 
+
+.submit-button {
+  background-color: green;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+.booking-form body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:green;
+  
+
+
+}
+content {
+  padding: 20px;
+}
+
+#how-to-use h2, #tips h2 {
+  color: green;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color:green;
+  color: #000000;
+  margin-top: 40px;
+}

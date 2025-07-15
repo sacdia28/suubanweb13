@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    </style> 
+  <meta charset="UTF-8">
+  <title>Booking Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="logo">  booking form</h1>
+    <nav class="nav">
+      <ul>
+        <a href="index.html">Home</a>&nbsp;
+        <a href="about.html">About</a>&nbsp;
+        <a href="booking.html">Booking</a>&nbsp;
+        <a href="gallery.html">gallery</a>&nbsp;
+        <a href="help.html">help</a>&nbsp;
+        
+      </ul>
+    </nav>
+  </header>
+
+  <div class="form-container">
+    <fieldset><legend>Guest information</legend>
+    
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+      <label for="major">Your Major:</label>
+      <select id="major">
+        <option>Computer Science</option>
+        <option>Information Technology</option>
+        <option>Software Engineering</option>
+        <option>Networking</option>
+      </select><br><br>
+
+       <label>Gender:</label>
+      <div class="gender"> 
+   <label for="male">male</label>
+        <input type="radio" name="gender" id="male"><br>
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female"> 
+      </div><br>
+
+      <label >District</label>
+<select name="district" id="district">
+<option value="select" selected></option>
+<option value="hodan">hodan</option>
+<option value="kahda">kahda</option>
+<option value="dayniile">dayniile</option></select>
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" rows="4" placeholder="Write your comments..."></textarea><br><br>
+
+      <input type="submit" value="Submit"><br><br>
+    </form>
+    </fieldset>
+  </div>
+<footer class="footer">
+    <p>&copy; 2025 online-supermarkeet. All rights reserved.</p>
+  </footer>
+</body>
+</html>
